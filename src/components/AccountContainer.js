@@ -13,6 +13,8 @@ class AccountContainer extends Component {
 				transactions={this.props.transactions} 
 				searchTerm={this.props.searchTerm}
 				deleteTransaction={this.props.deleteTransaction}
+				sortByCategory={this.props.sortByCategory}
+				sortByDescription={this.props.sortByDescription}
 			/>
 		</div>
 		);

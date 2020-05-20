@@ -36,7 +36,19 @@ class App extends Component {
 		})
 	}
 
-	
+	sortByCategory = (transactions) => {
+		this.setState({
+			transactions : this.state.transactions.sort((a,b) => a.category - b.category )
+		})
+		transactions = this.state.transactions
+	}
+
+	sortByDescription = (transactions) => {
+		this.setState({
+			transactions : this.state.transactions.sort((a,b) => a.description - b.description )
+		})
+		transactions = this.state.transactions
+	}
 
 	render() {
 		console.log(this.state.searchTerm)
@@ -51,6 +63,8 @@ class App extends Component {
 				setSearchTerm={this.setSearchTerm}
 				addTransaction={this.addTransaction}
 				deleteTransaction={this.deleteTransaction}
+				sortByCategory={this.sortByCategory}
+				sortByDescription={this.sortByDescription}
 			/>
 			</div>
 		);
