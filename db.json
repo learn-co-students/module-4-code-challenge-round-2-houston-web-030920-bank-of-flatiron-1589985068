@@ -83,6 +83,20 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-05-14",
+      "description": "Talim's Duck",
+      "category": "Income",
+      "amount": "5785",
+      "id": 13
+    },
+    {
+      "date": "2020-05-01",
+      "description": "Talim's Duck",
+      "category": "Food",
+      "amount": "57578",
+      "id": 14
     }
   ]
 }
