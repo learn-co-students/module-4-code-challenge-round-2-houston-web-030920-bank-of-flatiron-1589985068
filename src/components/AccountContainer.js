@@ -33,7 +33,6 @@ class AccountContainer extends Component {
     
   }
 
-
   //search functionallity
   searchQuery = (searchTerm) => {
     this.setState({
@@ -82,10 +81,16 @@ class AccountContainer extends Component {
     //current state of search term
     //pass that array as the props to transaction list because 
     //it will always be accurate
-    let displayedTransactions = this.state.transactions.filter( transaction =>
+
+    let displayedTransactions =[]
+    //if search term does not equal ''
+    displayedTransactions = this.state.transactions.filter( transaction =>
       transaction.description.startsWith(this.state.searchTerm))
+    //else if filter alphabetically by category is selected
+    //displayedTransaction = this.state.transactions.sort((a,b) => (a.category > b.category) ? 1 : -1 )
     return (
       <div>
+        <button onClick={() => displayedTransactions = this.state.transactions.sort((a,b) => (a.category > b.category) ? 1 : -1 ) } >Filter By Category Alphabetically</button>
         <Search 
         searchQuery={this.searchQuery}/>
         <AddTransactionForm a
