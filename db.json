@@ -1,27 +1,6 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "date": "2019-12-01",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
-      "id": 3,
-      "date": "2019-12-02",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
       "id": 4,
       "date": "2019-12-04",
       "description": "Sunglasses, Urban Outfitters",
@@ -83,6 +62,34 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-05-14",
+      "description": "new",
+      "category": "movies",
+      "amount": "0.09",
+      "id": 13
+    },
+    {
+      "date": "",
+      "description": "new",
+      "category": "movies",
+      "amount": "0.04",
+      "id": 14
+    },
+    {
+      "date": "2020-05-22",
+      "description": "s",
+      "category": "ent",
+      "amount": "0.03",
+      "id": 15
+    },
+    {
+      "date": "2020-05-14",
+      "description": "Ent",
+      "category": "Ent",
+      "amount": "0.03",
+      "id": 16
     }
   ]
 }
