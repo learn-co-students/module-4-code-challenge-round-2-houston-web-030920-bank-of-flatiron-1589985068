@@ -83,6 +83,132 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "10.00",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 13
+    },
+    {
+      "date": "10.00",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 14
+    },
+    {
+      "date": "9.00",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 15
+    },
+    {
+      "date": "2020-05-06",
+      "description": "burger king",
+      "category": "food",
+      "amount": "11.00",
+      "id": 16
+    },
+    {
+      "date": "2020-05-05",
+      "description": "burger king",
+      "category": "food",
+      "amount": "10.00",
+      "id": 17
+    },
+    {
+      "date": "2020-05-05",
+      "description": "donuts",
+      "category": "donuts",
+      "amount": "20.00",
+      "id": 18
+    },
+    {
+      "date": "2020-05-01",
+      "description": "donuts",
+      "category": "donuts",
+      "amount": "-0.01",
+      "id": 19
+    },
+    {
+      "date": "2020-05-08",
+      "description": "Food",
+      "category": "Food",
+      "amount": "0.02",
+      "id": 20
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 21
+    },
+    {
+      "date": "",
+      "description": "burger king",
+      "category": "food",
+      "amount": "-0.01",
+      "id": 22
+    },
+    {
+      "date": "2020-05-09",
+      "description": "Donuts",
+      "category": "Donuts",
+      "amount": "-0.02",
+      "id": 23
+    },
+    {
+      "date": "",
+      "description": "Burrito",
+      "category": "mexican",
+      "amount": "11.00",
+      "id": 24
+    },
+    {
+      "date": "2020-05-07",
+      "description": "chinese",
+      "category": "chinese",
+      "amount": "0.06",
+      "id": 25
+    },
+    {
+      "date": "2020-05-01",
+      "description": "chinese",
+      "category": "chinese",
+      "amount": "0.01",
+      "id": 26
+    },
+    {
+      "date": "2020-05-01",
+      "description": "chinese",
+      "category": "chinese",
+      "amount": "0.01",
+      "id": 27
+    },
+    {
+      "date": "2020-05-09",
+      "description": "donuts",
+      "category": "food",
+      "amount": "0.01",
+      "id": 28
+    },
+    {
+      "date": "2020-05-02",
+      "description": "donuts",
+      "category": "donuts",
+      "amount": "0.01",
+      "id": 29
+    },
+    {
+      "date": "2020-05-16",
+      "description": "chinese",
+      "category": "chinese",
+      "amount": "0.06",
+      "id": 30
     }
   ]
 }

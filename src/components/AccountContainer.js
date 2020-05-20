@@ -4,12 +4,25 @@ import Search from "./Search";
 import AddTransactionForm from "./AddTransactionForm";
 
 class AccountContainer extends Component {
+ 
+ 
+ 
   render() {
     return (
       <div>
-        <Search />
-        <AddTransactionForm />
-        <TransactionsList />
+        <Search 
+        charactersTyped={this.props.charactersTyped}
+        />
+
+        <AddTransactionForm 
+        createTransaction={this.props.createTransaction}
+        />
+        {this.props.transactionArray.map( transaction => 
+        <TransactionsList 
+          transaction={transaction}
+          key={transaction.id}
+        />
+        )}
       </div>
     );
   }
