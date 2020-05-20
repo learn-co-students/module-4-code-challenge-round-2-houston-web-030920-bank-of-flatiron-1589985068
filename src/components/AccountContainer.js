@@ -93,8 +93,8 @@ class AccountContainer extends Component {
         <button onClick={() => displayedTransactions = this.state.transactions.sort((a,b) => (a.category > b.category) ? 1 : -1 ) } >Filter By Category Alphabetically</button>
         <Search 
         searchQuery={this.searchQuery}/>
-        <AddTransactionForm a
-        ddNewTransaction={this.addNewTransaction}/>
+        <AddTransactionForm 
+        addNewTransaction={this.addNewTransaction}/>
         <TransactionsList 
         deleteTransaction={this.deleteTransaction} 
         transactions={displayedTransactions}/>
