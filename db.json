@@ -71,18 +71,11 @@
       "amount": -24
     },
     {
-      "id": 11,
-      "date": "2019-12-16",
-      "description": "MTA Vending Machine: MetroCard",
-      "category": "Transportation",
-      "amount": -116.39
-    },
-    {
-      "id": 12,
-      "date": "2019-12-17",
-      "description": "Venmo, Pay Roommate for Rent",
-      "category": "Housing",
-      "amount": -975
+      "date": "2020-05-19",
+      "description": "pizza",
+      "category": "food",
+      "amount": "-0.01",
+      "id": 19
     }
   ]
 }
