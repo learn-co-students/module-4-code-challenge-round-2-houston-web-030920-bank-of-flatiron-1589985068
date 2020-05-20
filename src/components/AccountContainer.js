@@ -12,6 +12,28 @@ class AccountContainer extends Component {
 
   }
 
+  //delete a transaction
+  //first creates a new array that removes the selected transactions
+  //then deletes that transaction from the database
+  //finally sets state to equal the array without the selected transaction
+  deleteTransaction = (transaction) => {
+    let currentTransactions = this.state.transactions.filter( transAct =>
+      transaction.id != transAct.id)
+     
+    fetch(`http://localhost:6001/transactions/${transaction.id}`, {
+      method: 'DELETE',
+    })
+    .then( resp => resp.json())
+    .then( trans => {
+      console.log(trans)
+    })
+    this.setState({
+      transactions: currentTransactions
+    })
+    
+  }
+
+
   //search functionallity
   searchQuery = (searchTerm) => {
     this.setState({
@@ -64,9 +86,13 @@ class AccountContainer extends Component {
       transaction.description.startsWith(this.state.searchTerm))
     return (
       <div>
-        <Search searchQuery={this.searchQuery}/>
-        <AddTransactionForm addNewTransaction={this.addNewTransaction}/>
-        <TransactionsList transactions={displayedTransactions}/>
+        <Search 
+        searchQuery={this.searchQuery}/>
+        <AddTransactionForm a
+        ddNewTransaction={this.addNewTransaction}/>
+        <TransactionsList 
+        deleteTransaction={this.deleteTransaction} 
+        transactions={displayedTransactions}/>
       </div>
     );
   }
